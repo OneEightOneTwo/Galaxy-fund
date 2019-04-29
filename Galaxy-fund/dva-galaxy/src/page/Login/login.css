@@ -1,0 +1,19 @@
+.c_login{
+    width: 1255px;
+    margin:  0 auto;
+    background: skyblue;
+}
+.c_login .c_header{
+    padding-top: 14px;
+    text-align: center;
+    color: #5a4663;
+}
+.c_header .c_logo{
+    height: 127px;
+    background: url(../../assets/images/logo_login.png)no-repeat center;
+    background-size: contain;
+}
+.c_header .h1{
+    margin: 34px 0 28px 0;
+    font-size: 27px;
+}
