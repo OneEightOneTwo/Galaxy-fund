@@ -1,19 +1,50 @@
 .c_login{
     width: 1255px;
     margin:  0 auto;
-    background: skyblue;
+    /* background: skyblue; */
 }
-.c_login .c_header{
+.c_login .container{
+    width: 515px;
+    margin: 0 auto;
+    position: relative;
+
+}
+.container .c_header{
     padding-top: 14px;
     text-align: center;
     color: #5a4663;
 }
 .c_header .c_logo{
-    height: 127px;
+    height: 90px;
     background: url(../../assets/images/logo_login.png)no-repeat center;
     background-size: contain;
 }
 .c_header .h1{
-    margin: 34px 0 28px 0;
-    font-size: 27px;
+    margin: 28px 0 20px 0;
+    font-size: 24px;
+}
+.tabs{
+    width: 50%;
+    color: black;
+    background: white;
+}
+.input1{
+    width: 495px;
+    height: 40px;
+}
+.c_login .c_footer{
+    position: absolute;
+    height: 70px;
+    left: 20;
+    bottom: 0;
+    width: 1255px;
+    margin: 0 auto;
+
+}
+.c_footer ul li{
+    float: left;
+    padding: 20px;
+}
+.c_footer ul li:nth-child(1){
+    margin-left: 33%;
 }
