@@ -7,12 +7,6 @@
 }
 .c_login .container{
     width: 515px;
-    margin:  0 auto;   
-}
-.container .c_header{
-    padding-top: 14px;
-    text-align: center;
-    color: #5a4663;
 }
 .c_header .c_logo{
     height:90px;

@@ -1,9 +1,10 @@
 import React from 'react';
-import { connect } from 'dva';
+// import { connect } from 'dva';
 import style from './login.css';
 
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
+// 选项卡
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -12,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 
 
 function TabContainer(props) {
-  const { classes } = props;
+  // const { classes } = props;
   return (
     //  style={{ padding: 8 * 2 }}控制内容块的padding
     <Typography component="div" style={{ height: '300px', }}>
@@ -119,4 +120,3 @@ export default withStyles(styles)(SimpleTabs);
 // IndexPage.propTypes = {
 // };
 
-// export default connect()();
